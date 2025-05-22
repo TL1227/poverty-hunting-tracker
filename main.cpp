@@ -299,8 +299,6 @@ int WINAPI wWinMain(HINSTANCE windowHandle, HINSTANCE xxx, PWSTR cmdLine, int cm
     if (answer == IDNO)
         answer = MessageBox(MainWindow, L"Let's try that again. Would you LIKE, TO BUY, the Battle Pass?", L"BATTLEPA$$", MB_OK | MB_SYSTEMMODAL);
 
-    if (answer == IDNO)
-
     MessageBox(MainWindow, L"Thank you! $99.99 has been withdrawn from your steam wallet.", L"BATTLEPA$$", MB_OK);
 
 
